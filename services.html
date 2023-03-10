@@ -24,28 +24,43 @@
         header h1 {
             padding: 50px;
         }
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
 
-        #nav {    
-            display: flex;
-            justify-content: center;
-        }
-        .flex-container {
-        display: flex;
-        flex-direction: column;
-        }
+.main {
+  width: 100%;
+  order: 1;
+  padding: 0 1em;
+}
 
-        .main {
-        width: 100%;
-        order: 1;
-        padding: 0 1em;
-        }
+.sidebar-nav {
+  width: 100%;
+  order: 2;
+  padding: 0 1em;
+  background-color: beige;
+}
 
-        .sidebar-nav {
-        width: 100%;
-        order: 2;
-        padding: 0 1em;
-        background-color: beige;
-        }
+
+
+@media (min-width: 40em) {
+  .flex-container {
+    flex-direction: row;
+  }
+  
+  .main {
+    flex: 1;
+    order: 2;
+  }
+  
+  .sidebar-nav {
+    width: 10em;
+    order: 1;
+  }
+  
+
+}
 
     </style>
 </head>
@@ -58,8 +73,8 @@
             <li id="nav-li"><a href="services.html"><h1>Services</a></h1></li>
           </ul>
     </header>
-    <div class="flex-container">
-        <main class="main">
+<div class="flex-container">
+  <main class="main">
           <article>
             <h1>information par thème</h1>
             <p>Cliquez sur la thématique souhaitée ci-dessous pour accéder en un clin d’œil à l’ensemble des informations, démarches en ligne et équipements correspondants.</p>
@@ -87,57 +102,24 @@
 
             </ul>
           </article>
-        </main>
-
-        <nav class="sidebar-nav">
-          <h3>En 1 clic</h3>
-          <ul>
-            <li>
-                <a href="#">Horaires et adresses</a>
-            </li>
-
-            <li>
-               <a href="#">Rdv.rouen.fr</a> 
-            </li>
-
-            <li>
-               <a href="#">Allo Rouen</a> 
-            </li>
-
-            <li>
-               <a href="#">Portail Famille</a> 
-            </li>
-
-            <li>
-               <a href="#">Menus Cantines</a> 
-            </li>
-
-            <li>
-               <a href="#">Conseil municipal</a> 
-            </li>
-
-            <li>
-               <a href="#">offres d'emploi et stage</a> 
-            </li>
-
-            <li>
-               <a href="#">Toutes les démarches en ligne </a> 
-            </li>
-
-            <li>
-               <a href="#">Créer mon compte</a> 
-            </li>
-
-            <li>
-               <a href="#">Accéder à mon compte</a> 
-            </li>
-
-            <li>
-               <a href="#">Suivre ma demarche</a> 
-            </li>
-        </ul>
-        </nav>
-      </div>
+  </main>
+  <nav class="sidebar-nav">
+    <h3>Navigation</h3>
+    <ul>
+      <li><a href="#topic-1">Horaires et adresses</a></li>
+      <li><a href="#topic-2">Rdv.rouen.fr</a></li>
+      <li><a href="#topic-3">Allo Rouen</a></li>
+      <li><a href="#topic-4">Portail Famille</a></li>
+      <li><a href="#topic-5">Menus Cantines</a></li>
+      <li><a href="#topic-6">Conseil municipal</a></li>
+      <li><a href="#topic-7">Offres d'emploi et stage</a></li>
+      <li><a href="#topic-8">Toutes kes démarches en ligne </a></li>
+      <li><a href="#topic-9">Créer mon compte</a></li>
+      <li><a href="#topic-10">Accéder à mon compte</a></li>
+      <li><a href="#topic-11">Suivre ma démarche</a></li>
+    </ul>
+  </nav>
+</div>
 <script src="/js/main.js"></script>
 </body>
 </html>
