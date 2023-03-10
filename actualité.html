@@ -33,7 +33,7 @@
             padding-left: 250px;
             padding-right: 250px;
         }
-#nav.sidebar-nav{width: 50%;}
+
         #nav-li { 
             display:flex;
             display: inline; 
@@ -45,16 +45,11 @@
             align-items: center;
             background-color: beige;
         }
-        .sidebar-nav {
-            width: 30%;
-            order: 2;
-            padding: 0 1em;
-            background-color: beige;
-            }
-        .titre{
-            float: right;
 
-        }
+       
+
+       
+   
         #un #deux #trois {
             width: 100%;
         }
@@ -70,24 +65,41 @@
         #trois {
             width: 30%;
         }
-        
-    </style><body>
-  <header id="header">
-    <ul id="ul">
-        <li id="li"><img src="IMG/BlueLogo.svg" alt="logo de la ville de rouen"></li>
-        <li id="li"><a href="actualités.html"><h1>Actualités</h1></a></li>
-        <li id="li"><a href="institution.html"><h1>Institution</a></h1></li>
-        <li id="li"><a href="services.html"><h1>Services</a></h1></li>
-      </ul>
-</header>
+   
+        .date{
+            float: left;
+           height: 100%;
+
+        }
+        .culture{
+            text-align: center;
+        }
+        .sport{
+            text-align: center;
+        }
+        .sidebar-nav {
+        width: 15%;
+        order: 2;
+        padding: 0 1em;
+        background-color: beige;
+}
+    </style>
+    
 </head>
 <body>
-    <div class="titre">
-    <h2>Solidarité Ukraine<a href="https://rouen.fr/solidarite-ukraine"> + d'informations</a></h2>
-    <img typeof="foaf:Image" src="https://rouen.fr/sites/default/files/styles/large/public/illustration/capture_decran_2023-02-22_23373.png?itok=-N0UvVKB" width="340" height="298" alt="" title="Terreur, désarroi, résistance, colère, espoir… les états d’âme des Ukrainiens transparaissent dans cet ensemble de 30 illustrations, pour plus d’un tiers au format 120x175 cm">
-    </div>
-    <h1>Vendredi 10 février 2023</h1>
-    
+   
+  <header id="header">
+    <ul id="nav-ul">
+        <li id="nav-li"><img src="IMG/BlueLogo.svg" alt="logo de la ville de rouen"></li>
+        <li id="nav-li"><a href="actualités.html"><h1>Actualités</h1></a></li>
+        <li id="nav-li"><a href="institution.html"><h1>Institution</a></h1></li>
+        <li id="nav-li"><a href="services.html"><h1>Services</a></h1></li>
+      </ul>
+</header>
+
+
+
+  <div class="center">
     <nav class="sidebar-nav">
         <h3>Navigation</h3>
         <ul>
@@ -97,7 +109,13 @@
         <li><a href="https://rouen.fr/infos-travaux">Info travaux</a></li>
         <li><a href="https://rouen.fr/coronavirus-covid19">COVID-19 </br>Consultez toutes </br>les informations utiles</a></li>
         </ul>
-    </nav>
+    </nav> 
+    <div class="date">
+            <h1>Vendredi 10 février 2023</h1>
+            <h2>Solidarité Ukraine<a href="https://rouen.fr/solidarite-ukraine"> + d'informations</a></h2>
+            <img typeof="foaf:Image" src="https://rouen.fr/sites/default/files/styles/large/public/illustration/capture_decran_2023-02-22_23373.png?itok=-N0UvVKB" width="340" height="298" alt="" title="Terreur, désarroi, résistance, colère, espoir… les états d’âme des Ukrainiens transparaissent dans cet ensemble de 30 illustrations, pour plus d’un tiers au format 120x175 cm">
+    </div> 
+  
     <div class="vacance">
         <h2>Encore des places pour "tes vacances à Rouen</h2>
         <li><a href="https://rouen.fr/coronavirus-covid19">lire encore des places pour "tes vacances à Rouen</a></li>
@@ -105,6 +123,7 @@
         </p>
         <img typeof="foaf:Image" src="https://rouen.fr/sites/default/files/styles/large/public/illustration/actu_tvar_22_1.png?itok=zoSkVRAi" width="640" height="480" alt="Bannière &quot;Tes vacances à Rouen&quot;" title="Encore des places pour &quot;Tes vacances à Rouen&quot;">
     </div>
+
     <div class="culture">
         <h2>50 soutiens pour la candidature Rouen Seine Normandie 2028</h2>
         <li>Le projet Rouen Seine Normande 2028, Capitale européenne de la culture est soutenu publiquement par une cinquantaine de professionnels de la culture et du secteur social qui affichent leurs souhait Lire 50 soutiens pour la candidature Rouen Seine Normandie 2028<a href="https://rouen.fr/evenement/2023/02/50-soutiens-pour-candidature-rouen-seine-normandie-2028"></a></li>
@@ -117,7 +136,7 @@
         <li>Amiens sera le dernier adversaire à domicile des Dragons mardi 28 février 2023 de la saison régulière. Un match une nouvelle fois joué à guichets fermés.  Lire Hockey : dernier match à domicile avant les quarts de finale</li>
         <img typeof="foaf:Image" src="https://rouen.fr/sites/default/files/styles/large/public/illustration/amiens_hockey.jpg?itok=jj6JqbxC" width="640" height="360" alt="">">
     </div>
-
+</div>
     <script src="/js/main.js"></script>
 </body>
 </html>
