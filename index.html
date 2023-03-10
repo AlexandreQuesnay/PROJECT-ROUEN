@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <Link rel = "StyleSheet" href = "/css/style.css" type = "text / css" />
     
-    <title>Page Accueuil</title>
+    <title>Page Accueil</title>
     <style>
-        #nav-li { 
+        body {
+            padding: 0px;
+            margin-left: 250px;
+            margin-right: 250px;
+            /*background-color: beige;*/
+        }
+
+        #li { 
             display:flex;
             display: inline; 
             align-items: center;
@@ -18,6 +25,7 @@
             display: flex;
             align-items: center;
             background-color: beige;
+            list-style-type: none;
         }
 
         header h1 {
@@ -30,8 +38,13 @@
         }
 
         #section {
-            padding-left: 250px;
-            padding-right: 250px;
+            
+        }
+
+        #footer {
+            background-color: beige;
+            display: flex;
+            justify-content: center;
         }
 
         #un #deux #trois {
@@ -55,7 +68,7 @@
 <body>
     <header id="nav">
         <ul id="nav-ul">
-            <li id="nav-li"><img src="IMG/BlueLogo.svg" alt="logo de la ville de rouen"></li>
+            <li id="nav-li"> <a href="index.html"><img src="IMG/BlueLogo.svg"/></a></li>            
             <li id="nav-li"><a href="actualité.html"><h1>Actualités</h1></a></li>
             <li id="nav-li"><a href="institution.html"><h1>Institution</a></h1></li>
             <li id="nav-li"><a href="services.html"><h1>Services</a></h1></li>
@@ -82,6 +95,13 @@
             <img id="trois" src="IMG/services_rouen.jpg" alt="services rouen">
         </div>    
     </section>
+
+    <footer id="footer">
+        <h3><p>Téléphone : 02 35 08 69 00&ensp;</p>
+        <p>Courrier  : Ville de Rouen 2 Place du Général-de-Gaulle - CS 31 402
+        76037 Rouen Cedex</p></h3>
+
+    </footer>
     
     <script src="/js/main.js"></script>
 </body>
