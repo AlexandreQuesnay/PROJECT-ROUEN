@@ -8,27 +8,197 @@
     <title>Document</title>
 </head>
 <body>
-    <header>       
-        <div id="nav-logo-section" class="nav-section">
-            <a href="index.html">
-              <img src="IMG/BlueLogo.svg" alt="logo de la ville de rouen">
-            </a>
-        </div> 
-            <nav>
-                <ul>
-                    <li>
-                        <a href="institution.html">institution</a>
-                    </li>
-                    <li>
-                        <a href="#">actualité</a>
-                    </li>
-                    <li>
-                        <a href="services.html">services</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+    <style>
+        html{
+            color: white;
+        }
+        body{
+            background-color: black;
+        }
+        #nav-li { 
+            display:flex;
+            display: inline; 
+            align-items: center;
+        }
+
+        #nav-ul {
+            display: flex;
+            align-items: center;
+            background-color: beige;
+        }
+
+        header h1 {
+            padding: 50px;
+        }
+
+        #nav {    
+            display: flex;
+            justify-content: center;
+        }
+        #block-1{
+            display: flex;
+            justify-content: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header id="nav">
+        <ul id="nav-ul">
+            <li id="nav-li"><img src="IMG/BlueLogo.svg" alt="logo de la ville de rouen"></li>
+            <li id="nav-li"><a href="actualité.html"><h1>Actualités</h1></a></li>
+            <li id="nav-li"><a href="institution.html"><h1>Institution</a></h1></li>
+            <li id="nav-li"><a href="services.html"><h1>Services</a></h1></li>
+          </ul>
     </header>
+    <section>
+
+        <div id="block-1">
+            <H2>En 1 clic</H2>
+            <div id="list-1">
+            
+            <ul>
+                <li>
+                    <a href="#">Horaires et adresses</a>
+                </li>
+
+                <li>
+                   <a href="#">Rdv.rouen.fr</a> 
+                </li>
+
+                <li>
+                   <a href="#">Allo Rouen</a> 
+                </li>
+
+                <li>
+                   <a href="#">Portail Famille</a> 
+                </li>
+
+                <li>
+                   <a href="#">Menus Cantines</a> 
+                </li>
+
+                <li>
+                   <a href="#">Conseil municipal</a> 
+                </li>
+
+                <li>
+                   <a href="#">offres d'emploi et stage</a> 
+                </li>
+
+            </ul>
+        </div>
+        <div id="list-2">
+            <ul>
+                <li>
+                   <a href="#">Toutes les démarches en ligne </a> 
+                </li>
+
+                <li>
+                   <a href="#">Créer mon compte</a> 
+                </li>
+
+                <li>
+                   <a href="#">Accéder à mon compte</a> 
+                </li>
+
+                <li>
+                   <a href="#">Suivre ma demarche</a> 
+                </li>
+            </ul>
+        </div>
+        </div>
+
+
+        <div id="info supp">
+            <H2>information par thème</H2>
+            <p>Cliquez sur la thématique souhaitée ci-dessous pour accéder en un clin d’œil à l’ensemble des informations, démarches en ligne et équipements correspondants.</p>
+            <ul>
+                <li>
+                   <a href="#">Archives municipales</a> 
+                </li>
+
+                <li>
+                   <a href="#">association</a> 
+                </li>
+
+                <li>
+                    <a href="#">citoyenneté</a>
+                </li>
+
+                <li>
+                    <a href="#">culture</a>
+                </li>
+
+                <li>
+                    <a href="#">ecole</a>
+                </li>
+
+                <li>
+                    <a href="#">economie,commerce</a>
+                </li>
+
+                <li>
+                   <a href="#">enfance</a> 
+                </li>
+
+                <li>
+                    <a href="#">etat-civil,papiers</a>
+                </li>
+
+                <li>
+                    <a href="#">jeunesse,etudiant</a>
+                </li>
+
+                <li>
+                    <a href="#">nature,environnement</a>
+                </li>
+
+                <li>
+                    <a href="#">nouveau rouannais</a>
+                </li>
+
+                <li>
+                    <a href="#">organisation d'évenement</a>
+                </li>
+
+                <li>
+                    <a href="#">propreté</a>
+                </li>
+
+                <li>
+                    <a href="#">qualité,réclamation</a>
+                </li>
+
+                <li>
+                    <a href="#">sécurité,prévention</a>
+                </li>
+
+                <li>
+                    <a href="#">senior</a>
+                </li>
+
+                <li>
+                    <a href="#">solodarité,santé</a>
+                </li>
+
+                <li>
+                    <a href="#">sport</a>
+                </li>
+
+                <li>
+                   <a href="#">transport,stationnement</a> 
+                </li>
+
+                <li>
+                   <a href="#">Urbanisme</a> 
+                </li>
+
+            </ul>
+        </div>
+
+    </section>
 <script src="/js/main.js"></script>
 </body>
 </html>
