@@ -33,7 +33,28 @@
             padding-left: 250px;
             padding-right: 250px;
         }
+#nav.sidebar-nav{width: 50%;}
+        #nav-li { 
+            display:flex;
+            display: inline; 
+            align-items: center;
+        }
 
+        #nav-ul {
+            display: flex;
+            align-items: center;
+            background-color: beige;
+        }
+        .sidebar-nav {
+            width: 30%;
+            order: 2;
+            padding: 0 1em;
+            background-color: beige;
+            }
+        .titre{
+            float: right;
+
+        }
         #un #deux #trois {
             width: 100%;
         }
@@ -61,20 +82,22 @@
 </header>
 </head>
 <body>
+    <div class="titre">
     <h2>Solidarité Ukraine<a href="https://rouen.fr/solidarite-ukraine"> + d'informations</a></h2>
-    <img typeof="foaf:Image" src="https://rouen.fr/sites/default/files/styles/large/public/illustration/capture_decran_2023-02-22_23373.png?itok=-N0UvVKB" width="640" height="498" alt="" title="Terreur, désarroi, résistance, colère, espoir… les états d’âme des Ukrainiens transparaissent dans cet ensemble de 30 illustrations, pour plus d’un tiers au format 120x175 cm">
-    <div class="titre">Vendredi 10 février 2023</div>
-    <div class="meteo">
+    <img typeof="foaf:Image" src="https://rouen.fr/sites/default/files/styles/large/public/illustration/capture_decran_2023-02-22_23373.png?itok=-N0UvVKB" width="340" height="298" alt="" title="Terreur, désarroi, résistance, colère, espoir… les états d’âme des Ukrainiens transparaissent dans cet ensemble de 30 illustrations, pour plus d’un tiers au format 120x175 cm">
+    </div>
+    <h1>Vendredi 10 février 2023</h1>
+    
+    <nav class="sidebar-nav">
+        <h3>Navigation</h3>
+        <ul>
         <li><a href="https://openweathermap.org/city/2982652">Info météo</a></li>
         <li><a href="https://www.atmonormandie.fr/">Info atmonormandie</a></li>
-    </div>
-    <div class="transport">
         <li><a href="https://www.trafic-metropole-rouen.fr/">Info trafic</a></li>
         <li><a href="https://rouen.fr/infos-travaux">Info travaux</a></li>
-    </div>
-    <div class="covid">
-        <li><a href="https://rouen.fr/coronavirus-covid19">COVID-19 Consultez toutes les informations utiles</a></li>
-    </div>
+        <li><a href="https://rouen.fr/coronavirus-covid19">COVID-19 </br>Consultez toutes </br>les informations utiles</a></li>
+        </ul>
+    </nav>
     <div class="vacance">
         <h2>Encore des places pour "tes vacances à Rouen</h2>
         <li><a href="https://rouen.fr/coronavirus-covid19">lire encore des places pour "tes vacances à Rouen</a></li>
