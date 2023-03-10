@@ -1,0 +1,13 @@
+R4.DWeb-DI.08 - Déploiement de services
+
+Github :
+https://github.com/AlexandreQuesnay/PROJECT-ROUEN/tree/master
+
+visual code :
+PROJECT-ROUEN/institution.html
+
+Universitice :
+- https://universitice.univ-rouen.fr/course/view.php?id=26615
+- cours git
+
+https://rouen.fr/
