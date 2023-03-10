@@ -29,6 +29,24 @@
             display: flex;
             justify-content: center;
         }
+        .flex-container {
+        display: flex;
+        flex-direction: column;
+        }
+
+        .main {
+        width: 100%;
+        order: 1;
+        padding: 0 1em;
+        }
+
+        .sidebar-nav {
+        width: 100%;
+        order: 2;
+        padding: 0 1em;
+        background-color: beige;
+        }
+
     </style>
 </head>
 <body>
@@ -218,7 +236,7 @@
             </ul>
           </article>
         </main>
-        
+
         <nav class="sidebar-nav">
           <h3>En 1 clic</h3>
           <ul>
